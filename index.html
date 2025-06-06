@@ -2,104 +2,55 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>カフェ ヒトトキ</title>
-  <!-- CSSはここに記述します -->
-  <style>
-    /* ページ全体の基本スタイル */
-    body {
-      font-family: "ヒラギノ角ゴ ProN", "游ゴシック", sans-serif;
-      background-color: #fdf6e3; /* レトロな雰囲気の背景色 */
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* ヘッダー部分 */
-    header {
-      background-color: #a67c52; /* レトロなブラウン系カラー */
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* メインコンテンツ全体 */
-    main {
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    /* セクションタイトル */
-    h2 {
-      border-bottom: 2px solid #a67c52;
-      padding-bottom: 5px;
-      margin-top: 40px;
-    }
-
-    /* メニューリストのスタイル */
-    ul.menu {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-
-    /* フッター部分 */
-    footer {
-      background-color: #d8c3a5;
-      color: #333;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-      font-size: 14px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ | Y Works</title>
+  <!-- 外部CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ヘッダー（ページ上部） -->
+  <!-- ヘッダー：名前とナビゲーション -->
   <header>
-    <h1>カフェ ヒトトキ</h1>
-    <p>レトロな空間で、ゆったりとしたひとときを。</p>
+    <h1>Y Works</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">自己紹介</a></li>
+        <li><a href="#works">実績</a></li>
+        <li><a href="#contact">連絡先</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- メインコンテンツ -->
-  <main>
+  <!-- 自己紹介セクション -->
+  <section id="about">
+    <h2>自己紹介</h2>
+    <p>Web制作を中心に活動しているフリーランスです。</p>
+    <img src="e9e2afa2-630a-4196-a82d-676261d2f3c2.jpg" alt="プロフィール画像">
+  </section>
 
-    <!-- メニュー紹介セクション -->
-    <section>
-      <h2>メニュー</h2>
-      <ul class="menu">
-        <li class="menu-item">
-          <strong>ブレンドコーヒー</strong><br>
-          <img src="blend_coffee.jpg" alt="ブレンドコーヒーの写真">
-        </li>
-        <li class="menu-item">
-          <strong>カフェオレ</strong><br>
-          <img src="cafe_au_lait.jpg" alt="カフェオレの写真">
-        </li>
-        <li class="menu-item">
-          <strong>100％りんごジュース</strong><br>
-          <img src="apple_juice.jpg" alt="りんごジュースの写真">
-        </li>
-      </ul>
-    </section>
+  <!-- 実績セクション -->
+  <section id="works">
+    <h2>制作実績</h2>
+    <div class="work-item">
+      <img src="https://via.placeholder.com/300x200" alt="実績1の画像">
+      <p>実績1の説明：Webサイト制作（架空会社ABC様）</p>
+    </div>
+    <div class="work-item">
+      <img src="https://via.placeholder.com/300x200" alt="実績2の画像">
+      <p>実績2の説明：ランディングページ作成（架空サービスXYZ）</p>
+    </div>
+  </section>
 
-    <!-- 営業時間セクション -->
-    <section>
-      <h2>営業時間</h2>
-      <p>毎日 9:00 - 19:00</p>
-    </section>
-
-    <!-- アクセス情報セクション -->
-    <section>
-      <h2>アクセス</h2>
-      <p>大阪駅から徒歩7分</p>
-    </section>
-
-  </main>
+  <!-- 連絡先セクション -->
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>お仕事のご相談やお問い合わせは以下までご連絡ください。</p>
+    <p>メール：jb73a487▲gmail.com（※ ▲を@に置き換えてください）</p>
+  </section>
 
   <!-- フッター -->
   <footer>
-    <p>&copy; 2025 カフェ ヒトトキ</p>
+    <p>&copy; 2025 Y Works</p>
   </footer>
 
 </body>
